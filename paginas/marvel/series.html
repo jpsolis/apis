@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/series/style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css'>
+    <link rel='stylesheet' href='https://static.fontawesome.com/css/fontawesome-app.css'>
+    <link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.2.0/css/all.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700'>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  
+    <!-- <script type="text/javascript" src="js/comics/gridTraversal.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <title>Comics</title>
+
+</head>
+
+<body>   
+
+    <nav>
+        <ul>
+            <li><a class="active" href="#">Inicio</a></li>
+            <li><a href="marvel.html">Personajes</a></li>
+            <li><a href="series.html">Series</a></li>
+            <li><a href="#">Otros 1</a></li>
+            <li><a href="#">Otros 2</a></li>
+        </ul>
+    </nav>
+
+    <div class="grid" id="comics-row">
+        
+    </div>
+
+
+    <!-- <button id="myBtn">Open Modal</button> -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    
+      <!-- Modal content -->
+      <div class="modal-content" id="modalContent">
+        <span class="close">&times;</span>
+        <p>Detalle</p>
+       
+      </div>
+    
+    </div>
+    
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> -->
+
+   
+
+<script>
+    $(document).ready(function(){
+        $("nav").click(function(){
+            $(this).toggleClass("_expand");
+        });
+    });
+</script>
+
+</body>
+</html><script src="js/series/app.js"></script> 
